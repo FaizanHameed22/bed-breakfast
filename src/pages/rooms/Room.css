@@ -5,7 +5,9 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  padding: 4rem 0rem;
+  padding: 4rem 0px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .room-container {
@@ -185,6 +187,10 @@
   padding: 80px 10%;
   background-color: #fefcf9;
   text-align: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .facilities-header {

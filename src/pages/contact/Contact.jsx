@@ -52,7 +52,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contacts">
+    <section id="contacts" className="contact-section">
       <div className="contact-container">
         {/* LEFT SIDE */}
         <div className="contact-left">

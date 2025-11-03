@@ -6,6 +6,14 @@
   background-color: #f9f7f3;
   font-family: "Poppins", sans-serif;
   gap: 40px;
+  margin: 0 auto;
+    padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1440px;
+}
+.contact-section{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contact-left {

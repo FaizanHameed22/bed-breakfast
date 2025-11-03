@@ -6,6 +6,7 @@ const Header = () => {
 
   return (
     <header className="header">
+      <div className="header-containter">
       <h1 className="logo">Bed&Breakfast</h1>
 
       <nav className={`nav-links ${isOpen ? "open" : ""}`}>
@@ -30,6 +31,7 @@ const Header = () => {
         <span></span>
         <span></span>
         <span></span>
+        </div>
       </div>
     </header>
   );
