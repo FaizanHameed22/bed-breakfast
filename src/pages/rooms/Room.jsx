@@ -21,7 +21,7 @@ const Room = () => {
             <img src={roomImage} alt="Double Room" />
           </div>
           <div className="room-content">
-            <p className="price">FROM $150/NIGHT</p>
+            {/* <p className="price">FROM $150/NIGHT</p> */}
             <h2 className="room-title">Double Room</h2>
             <p className="room-description">
               Beautiful design with modern furnishings including a glamorous bay
@@ -43,17 +43,16 @@ const Room = () => {
         {/* Second Room - Content Left, Image Right */}
         <div className="room-container-reversed">
           <div className="room-details">
-            <p className="room-price">FROM $200/NIGHT</p>
-            <h2 className="suite-title">Deluxe Suite</h2>
+            {/* <p className="room-price">FROM $200/NIGHT</p> */}
+            <h2 className="suite-title">Drawing Room</h2>
             <p className="suite-description">
-              Spacious luxury suite with premium amenities and stunning panoramic
-              views of the city skyline for an unforgettable stay.
+            Stylishly designed space offering a warm and inviting ambiance, adorned with elegant décor and plush seating ideal for meetings, relaxation, or entertaining guests in comfort.
             </p>
             <div className="suite-features">
-              <div className="suite-feature">
+              {/* <div className="suite-feature">
                 <FaBed className="icon" />
                 <span>King Size Bed</span>
-              </div>
+              </div> */}
               <div className="suite-feature">
                 <FaTv className="icon" />
                 <span>42 Inc Smart TV</span>
@@ -71,17 +70,16 @@ const Room = () => {
             <img src={roomImage3} alt="Double Room" />
           </div>
           <div className="room-content">
-            <p className="price">FROM $150/NIGHT</p>
-            <h2 className="room-title">Double Room</h2>
+            {/* <p className="price">FROM $150/NIGHT</p> */}
+            <h2 className="room-title">TV Lounge</h2>
             <p className="room-description">
-              Beautiful design with modern furnishings including a glamorous bay
-              window with your own private view of Lucerne.
+             Elegant and cozy space designed for relaxation, featuring modern décor, comfortable seating, and a large flat-screen TV  the perfect spot to unwind and enjoy your favorite shows.
             </p>
             <div className="room-features">
-              <div className="feature-f">
+              {/* <div className="feature-f">
                 <FaBed className="icon" />
                 <span>King Size Bed</span>
-              </div>
+              </div> */}
               <div className="feature-f">
                 <FaTv className="icon" />
                 <span>32 Inc TV</span>
@@ -103,8 +101,7 @@ const Room = () => {
             <FaBath className="facility-icon" />
             <h3>Large Bath Room</h3>
             <p>
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-              suscipit laboriosam.
+             Immaculately maintained bathroom featuring modern fixtures, fresh linens, and a soothing ambiance  offering guests a refreshing and hygienic experience every time
             </p>
           </div>
 
@@ -112,17 +109,14 @@ const Room = () => {
             <FaWifi className="facility-icon" />
             <h3>High Speed Wifi</h3>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium.
-            </p>
+             Enjoy seamless connectivity with our ultra-fast Wi-Fi, ensuring smooth streaming, video calls, and online browsing throughout your stay.</p>
           </div>
 
           <div className="facility-box">
             <FaSnowflake className="facility-icon" />
             <h3>Air Condition</h3>
             <p>
-              Similique sunt in culpa qui officia deserunt mollitia animi, id est
-              laborum et dolorum fuga.
+              Stay comfortable year-round with our efficient climate control system, providing cool, refreshing air and personalized temperature settings for your perfect comfort.
             </p>
           </div>
 
@@ -130,8 +124,7 @@ const Room = () => {
             <FaSoap className="facility-icon" />
             <h3>Washing Machine</h3>
             <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-              impedit quo minus.
+             Convenient in-room washing machine available for your use, allowing you to refresh your clothes easily and enjoy a hassle-free, extended stay.
             </p>
           </div>
         </div>

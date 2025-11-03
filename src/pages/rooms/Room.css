@@ -248,7 +248,7 @@
 .experience-section {
   position: relative;
   background: url("../../assets/images/testimonial-bg.jpg");
-  background-size: cover;
+  background-size: contain;
   /* <— this makes the image fill the section */
   height: 70vh;
   display: flex;
@@ -345,7 +345,7 @@
 @media (max-width: 768px) {
   .room-container-reversed {
     flex-direction: column-reverse;
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .room-details {

@@ -16,6 +16,7 @@ const Home = () => {
       </video>
 
       <div className="hero-content">
+
         <h1>Luxury Bed&Breakfast <br></br>
           where to stay</h1>
 

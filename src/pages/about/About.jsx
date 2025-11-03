@@ -74,58 +74,54 @@ const About = () => {
           <FaParking className="feature-icon" />
           <h3>Private Parking</h3>
           <p>
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-          </p>
+            Enjoy the convenience and security of dedicated private parking, offering safe and easy access to your vehicle throughout your stay.          </p>
         </div>
 
         <div className="feature">
           <FaWheelchair className="feature-icon" />
           <h3>Accessible</h3>
           <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
-          </p>
+            Thoughtfully designed with accessibility in mind, featuring easy room access, spacious layouts, and facilities to ensure a comfortable stay for all guests.          </p>
         </div>
 
         <div className="feature">
           <FaDog className="feature-icon" />
           <h3>Pet Friendly</h3>
           <p>
-            Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-          </p>
+            We warmly welcome your furry companions  enjoy a comfortable stay with pet-friendly accommodations designed for both you and your pets.          </p>
         </div>
 
         <div className="feature">
           <FaUmbrellaBeach className="feature-icon" />
           <h3>Patio Garden</h3>
           <p>
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
-          </p>
+            Relax and unwind in our serene patio garden, beautifully landscaped with lush greenery a perfect spot to enjoy fresh air and peaceful outdoor moments.          </p>
         </div>
       </section>
 
       {/* TESTIMONIALS SECTION */}
       <section className="testimonials-section">
-        <div className="testimonial-overlay">
+        {/* <div className="testimonial-overlay"> */}
           {/* <p className="testimonial-subtitle">TESTIMONIALS</p> */}
-          <h2 className="testimonial-title">What Clients Says</h2>
+          {/* <h2 className="testimonial-title">What Clients Says</h2> */}
 
-          <Slider {...settings} className="testimonial-slider">
-            {testimonials.map((item, index) => (
-              <div key={index} className="testimonial-card">
-                <div className="testimonial-left">
-                  <img src={item.image} alt={item.name} className="testimonial-img" />
-                  <div className="testimonial-info">
+          {/* <Slider {...settings} className="testimonial-slider"> */}
+            {/* {testimonials.map((item, index) => ( */}
+              {/* // <div key={index} className="testimonial-card"> */}
+                {/* <div className="testimonial-left"> */}
+                  {/* <img src={item.image} alt={item.name} className="testimonial-img" /> */}
+                  {/* <div className="testimonial-info">
                     <h4>{item.name}</h4>
                     <p>{item.date}</p>
-                  </div>
-                </div>
-                <div className="testimonial-right">
-                  <p>"{item.review}"</p>
-                </div>
-              </div>
-            ))}
-          </Slider>
-        </div>
+                  </div> */}
+                {/* </div> */}
+                {/* <div className="testimonial-right"> */}
+                  {/* <p>"{item.review}"</p> */}
+                {/* </div> */}
+              {/* </div> */}
+            {/* ))} */}
+          
+        {/* </div> */}
       </section>
     </>
   );

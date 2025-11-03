@@ -55,7 +55,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <button className="fullscreen-btn">FullScreen Gallery</button>
+      {/* <button className="fullscreen-btn">FullScreen Gallery</button> */}
     </section>
   );
 };

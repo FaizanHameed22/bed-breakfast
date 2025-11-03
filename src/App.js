@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router> {/* ✅ Wrap everything in Router */}
+    <Router className="main-container"> {/* ✅ Wrap everything in Router */}
       <Header />
       <Home />
       <About />
