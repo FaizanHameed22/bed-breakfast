@@ -1,0 +1,140 @@
+.activity-section {
+  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: #fff;
+}
+
+.activity-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.hr-t{
+  width: 350px;
+}
+
+.activity-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.activity-image img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.activity-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.activity-subtitle {
+  color: #bfa17a;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.activity-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.activity-description {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+/* ========== Available Tours Section ========== */
+
+.activities-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.activities-subtitle {
+  color: #a18a68;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.activities-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordion-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 28px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333;
+}
+
+.accordion-icon {
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #333;
+}
+
+.accordion-content {
+  padding: 0 28px 20px 28px;
+  text-align: left;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  border-top: 1px solid #f0f0f0;
+}
+
+.accordion-item.active .accordion-header {
+  background-color: #fafafa;
+}
+
+
+/* Responsive */
+@media (max-width: 900px) {
+  .activity-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .activity-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .activity-content {
+    max-width: 100%;
+  }
+}

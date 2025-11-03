@@ -1,0 +1,387 @@
+.room-section {
+    width: 100%;
+    background-color: #fcfaf7;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 4rem 0rem;
+  }
+  
+  .room-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 2rem;
+  }
+  .room-text h1 {
+    display:flex;
+    
+    flex-direction: column;
+  }
+  
+  .room-image img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 15px;
+    height: 426px;
+    object-fit: cover;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-content {
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+    padding: 2rem 5.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 431px;
+  }
+  
+  .price {
+    color: #9a8354;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .room-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .room-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .room-features {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .feature-f {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .icon {
+    color: #9a8354;
+    font-size: 1.2rem;
+  }
+   /* Room Container Reversed - Content Left, Image Right */
+.room-container-reversed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.room-details {
+  height: 300px;
+  flex: 1;
+      position: absolute; 
+    left: 1%;
+        
+    z-index: 100;
+    background-color: #fff;
+    padding: 2rem 5.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 431px;
+
+}
+
+.room-price {
+  color: #d4af37;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.suite-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.suite-description {
+  /* font-size: 1.1rem; */
+  /* line-height: 1.8; */
+  color: #64748b;
+  /* margin-bottom: 2rem; */
+}
+
+.suite-features {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.suite-feature {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  /* background: #f8fafc; */
+  padding: 1rem 1.5rem;
+  /* border-radius: 10px; */
+  /* border: 1px solid #e5e7eb; */
+}
+
+.suite-feature .icon {
+  font-size: 1.5rem;
+  color: #9a8354;
+}
+
+.suite-feature span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+}
+.suite-image{
+      justify-content: flex-end;
+    display: flex;
+    position: relative;
+    flex: 1;
+}
+
+.suite-image img {
+  width: 100%;
+  max-width: 800px;
+  /* height: auto; */
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  height: 426px;
+}
+.facilities-section {
+  padding: 80px 10%;
+  background-color: #fefcf9;
+  text-align: center;
+}
+
+.facilities-header {
+  margin-bottom: 60px;
+}
+
+.facilities-subtitle {
+  color: #bfa46f;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.facilities-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.facilities-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  justify-items: center;
+}
+
+.facility-box {
+  /* background: #fff; */
+  /* border-left: 1px solid #e8e8e8; */
+  /* border-right: 1px solid #e8e8e8; */
+  padding: 25px 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.facility-icon {
+  font-size: 60px;
+  color: #bfa46f;
+  margin-bottom: 20px;
+}
+
+.facility-box h3 {
+  color: #2f2f2f;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.facility-box p {
+  color: #6e6e6e;
+  font-size: 0.95rem;
+  line-height: 1.6;
+    
+}
+/* ===== Background Image Section ===== */
+.experience-section {
+  position: relative;
+  background: url("../../assets/images/testimonial-bg.jpg");
+  background-size: cover; /* <— this makes the image fill the section */
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* ensures full width coverage */
+  background-color: #ccc; /* fallback color */
+}
+
+
+.experience-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55); /* dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-content {
+  color: #fff;
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.experience-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.experience-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color:#ebd7b2;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    height: 60vh;
+  }
+
+  .experience-content h1 {
+    font-size: 2rem;
+  }
+
+  .experience-content p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .facilities-section {
+    padding: 60px 5%;
+  }
+
+  .facilities-container {
+    gap: 30px;
+  }
+
+  .facility-box {
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+}
+
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .room-container-reversed {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .suite-title {
+    font-size: 2rem;
+  }
+
+  .suite-features {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .room-container-reversed {
+    padding: 0 1rem;
+  }
+
+  .room-details {
+    padding: 1rem;
+  }
+
+  .suite-title {
+    font-size: 1.8rem;
+  }
+
+  .suite-description {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .room-container.reverse {
+    flex-direction: column;
+  }
+}
+  
+  /* 🌐 Responsive Design */
+  @media (max-width: 992px) {
+    .room-container {
+      flex-direction: column;
+    }
+  
+    .room-content {
+      position: static;
+      max-width: 100%;
+      margin-top: -2rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .room-content {
+      padding: 1.5rem;
+    }
+  
+    .room-title {
+      font-size: 1.5rem;
+    }
+  
+    .room-features {
+      gap: 1rem;
+    }
+  
+    .icon {
+      font-size: 1rem;
+    }
+  }
+  
