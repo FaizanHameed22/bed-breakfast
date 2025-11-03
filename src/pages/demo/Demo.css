@@ -1,0 +1,39 @@
+.demo-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .demo-container h1 {
+    color: #0077b6;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .demo-container p {
+    color: #333;
+    font-size: 1.1rem;
+    max-width: 600px;
+  }
+  
+  .demo-btn {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .demo-btn:hover {
+    background-color: #0096c7;
+  }
+  
