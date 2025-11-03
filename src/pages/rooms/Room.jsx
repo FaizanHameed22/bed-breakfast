@@ -7,8 +7,8 @@ import roomImage3 from "../../assets/images/room3.png";
 
 const Room = () => {
   return (
-    <> 
-      {/* 👇 ID added for smooth scroll target */}
+    <>
+      {/*  ID added for smooth scroll target */}
       <section id="rooms" className="room-section">
         <div>
           <p>Luxury experience</p>
@@ -91,7 +91,7 @@ const Room = () => {
         </div>
       </section>
 
-      {/* 👇 ID added for smooth scroll to "Facilities" if needed */}
+      {/*  ID added for smooth scroll to "Facilities" if needed */}
       <section id="facilities" className="facilities-section">
         <div className="facilities-header">
           <p className="facilities-subtitle">LUXURY B&B EXPERIENCE</p>
@@ -137,7 +137,7 @@ const Room = () => {
         </div>
       </section>
 
-      {/* 👇 ID added for scroll target if linked */}
+      {/*  ID added for scroll target if linked */}
       <section id="experience" className="experience-section">
         <div className="experience-overlay">
           <div className="experience-content">

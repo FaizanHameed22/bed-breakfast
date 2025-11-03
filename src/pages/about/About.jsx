@@ -42,8 +42,8 @@ const About = () => {
 
   return (
     <>
-      {/* ABOUT SECTION */}
-      
+
+
       <section id="about" className="about-section">
         <div className="about-content">
           <p className="about-p">About Us</p>

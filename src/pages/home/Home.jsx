@@ -12,15 +12,14 @@ const Home = () => {
         playsInline
       >
         <source src="/videos/background.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+
       </video>
 
       <div className="hero-content">
-        {/* <p>Luxury B&B Experience</p> */}
         <h1>Luxury Bed&Breakfast <br></br>
-        where to stay</h1>
-        
-        {/* <button className="hero-btn">Book Now</button> */}
+          where to stay</h1>
+
+
       </div>
     </section>
   );

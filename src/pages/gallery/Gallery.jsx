@@ -1,4 +1,4 @@
- import React, { useState } from "react";
+import React, { useState } from "react";
 import "./Gallery.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
@@ -29,11 +29,11 @@ const Gallery = () => {
   const rightIndex = (currentIndex + 1) % images.length;
 
   return (
-    <section  id="gallery"  className="gallery-section">
+    <section id="gallery" className="gallery-section">
       <h2 className="gallery-title">Interior Gallery</h2>
 
       <div className="gallery-container">
-        {/* Left Preview */}
+       
         <div className="gallery-image dimmed">
           <img src={images[leftIndex]} alt="left" />
           <button className="arrow-btn left" onClick={prevSlide}>
@@ -41,12 +41,12 @@ const Gallery = () => {
           </button>
         </div>
 
-        {/* Center Main Image */}
+        
         <div className="gallery-image active">
           <img src={images[currentIndex]} alt="center" />
         </div>
 
-        {/* Right Preview */}
+     
         <div className="gallery-image dimmed">
           <img src={images[rightIndex]} alt="right" />
           <button className="arrow-btn right" onClick={nextSlide}>
