@@ -3,7 +3,7 @@ import "./Room.css";
 import { FaBed, FaTv, FaBath, FaWifi, FaSnowflake, FaSoap } from "react-icons/fa";
 import roomImage from "../../assets/images/room1.png";
 import roomImage2 from "../../assets/images/room2.png";
-import roomImage3 from "../../assets/images/room3.png";
+// import roomImage3 from "../../assets/images/room3.png";
 
 const Room = () => {
   return (
