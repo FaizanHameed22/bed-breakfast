@@ -6,6 +6,7 @@ import "./Contact.css";
 const Contact = () => {
   const [activeTab, setActiveTab] = useState("availability");
   const [checkInDate, setCheckInDate] = useState(new Date());
+  const [checkOutDate, setCheckOutDate] = useState(new Date());
   const [adults, setAdults] = useState(1);
   const [children, setChildren] = useState(0);
 
@@ -21,6 +22,7 @@ const Contact = () => {
   const [contactLast, setContactLast] = useState("");
   const [contactEmail, setContactEmail] = useState("");
   const [contactTel, setContactTel] = useState("");
+  const [contactHuman, setContactHuman] = useState("");
   const [contactMsg, setContactMsg] = useState("");
 
   // ✅ Availability validation
@@ -39,7 +41,8 @@ const Contact = () => {
       !contactName ||
       !contactLast ||
       !contactEmail ||
-      !contactTel
+      !contactTel ||
+      contactHuman.trim() !== "4"
     ) {
       setContactMsg("⚠️ Please fill all fields correctly before submitting!");
     } else {
