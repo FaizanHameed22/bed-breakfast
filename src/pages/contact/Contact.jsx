@@ -22,7 +22,7 @@ const Contact = () => {
   const [contactLast, setContactLast] = useState("");
   const [contactEmail, setContactEmail] = useState("");
   const [contactTel, setContactTel] = useState("");
-  // const [contactHuman, setContactHuman] = useState("");
+  const [contactHuman, setContactHuman] = useState("");
   const [contactMsg, setContactMsg] = useState("");
 
   // ✅ Availability validation
@@ -41,8 +41,7 @@ const Contact = () => {
       !contactName ||
       !contactLast ||
       !contactEmail ||
-      !contactTel ||
-      contactHuman.trim() !== "4"
+      !contactTel 
     ) {
       setContactMsg("⚠️ Please fill all fields correctly before submitting!");
     } else {
