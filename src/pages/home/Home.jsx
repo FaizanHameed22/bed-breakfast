@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import hero from "../../../src/assets/images/hero-bg.jpg"
 import airbnb from '../../../src/assets/images/airbnb.svg';
-// import booking from '../../../src/assets/images/booking.png';
 import tripadvisor from '../../../src/assets/images/tripadvisor.svg';
 
 const Home = () => {

@@ -3,6 +3,7 @@ import "./Room.css";
 import { FaBed, FaTv, FaBath, FaWifi, FaSnowflake, FaSoap } from "react-icons/fa";
 import roomImage from "../../assets/images/room1.png";
 import roomImage2 from "../../assets/images/room2.png";
+// Remove this unused import
 // import roomImage3 from "../../assets/images/room3.png";
 
 const Room = () => {
@@ -139,8 +140,8 @@ const Room = () => {
             </div>
           </div>
 
-          <div class="scroll-container">
-            <div class="scroll-track">
+          <div className="scroll-container">
+            <div className="scroll-track">
               <h1>
               Experience a Japanese sense of serenity in Islamabad — peaceful, elegant, and designed for comfort. Relax, unwind, and immerse yourself in the beauty of mindful living.
               </h1>

@@ -8,35 +8,21 @@ import Room from "./pages/rooms/Room";
 import Gallery from "./pages/gallery/Gallery";
 import Activity from "./pages/activities/Activity";
 import Contact from "./pages/contact/Contact";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// Remove Router imports if not using routing
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router className="main-container"> {/* ✅ Wrap everything in Router */}
+    <div className="main-container">
       <Header />
       <Home />
       <About />
-       <Room/>
-       <Gallery/>
-       <Activity/>
-       <Contact/>
-      <main>
-      
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                {/* <h2>Start Shopping With Bed & Breakfast</h2> */}
-              </>
-            }
-          />
-          
-        </Routes>
-      </main>
-
+      <Room/>
+      <Gallery/>
+      <Activity/>
+      <Contact/>
       <Footer />
-    </Router>
+    </div>
   );
 }
 
