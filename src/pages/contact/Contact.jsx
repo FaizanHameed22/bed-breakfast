@@ -112,18 +112,21 @@ const Contact = () => {
             <div className="availability-section">
               <div className="calendar-container">
                 <div className="calendar">
-                  <h3>Check-in</h3>
+                  <h3>Check Availability</h3>
                   <Calendar
                     value={checkInDate}
                     onChange={setCheckInDate}
                     minDate={new Date()}
                     className="calender-wrapper"
+                    showDoubleView={true}
+                    prev2Label={null}
+                    next2Label={null}
                   />
                 </div>
               </div>
 
               <div className="form-row">
-                <select value={room} onChange={(e) => setRoom(e.target.value)}>
+                <select className="selct" value={room} onChange={(e) => setRoom(e.target.value)}>
                   <option value="">Select Room</option>
                   <option>Double Room</option>
                   <option>Deluxe Room</option>
@@ -155,29 +158,33 @@ const Contact = () => {
                   type="text"
                   placeholder="Name and Last Name"
                   value={name}
+                  className="input-fields"
                   onChange={(e) => setName(e.target.value)}
                 />
                 <input
                   type="email"
                   placeholder="Email"
                   value={email}
+                  className="input-fields"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
 
-              {/* <div className="human-check">
+              <div className="human-check">
                 <label>Are you human?</label>
                 <input
                   type="text"
                   placeholder="3 + 1 = ?"
                   value={humanCheck}
+                  className="input-fields"
                   onChange={(e) => setHumanCheck(e.target.value)}
                 />
-              </div> */}
-
-              <button className="check-btn" onClick={handleCheckNow}>
+                 <button className="check-btn" onClick={handleCheckNow}>
                 Check Now
               </button>
+              </div>
+
+              
 
               {availabilityMsg && (
                 <p

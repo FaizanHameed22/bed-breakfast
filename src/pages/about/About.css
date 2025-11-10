@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: space-between;
     /* padding: 60px 10%; */
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 22px;
+    padding-right: 32px;
     padding-top: 80px;
     background-color: #fff;
     flex-wrap: wrap; /* helps responsiveness */
@@ -12,6 +12,37 @@
     margin: 0 auto;
     /* width: 100%; */
     max-width: 1440px;
+  }
+  .about-intro {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #b6935c; /* soft gold accent */
+    margin-bottom: 0px;
+    padding-left: 10px;
+
+  }
+  
+  .about-paragraph-one {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    max-width: 700px;
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+  }
+  
+  .about-paragraph-two {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-weight: 400;
+    max-width: 700px;
   }
   .about-p{
     text-transform: uppercase;
@@ -22,11 +53,19 @@
     padding-left: 10px;
     font-size: .75rem;
   }
+  .about-footer{
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+  }
   
   .about-content {
     flex: 1;
     gap: 2px;
     min-width: 300px;
+    padding-left: 20px;
+  }
+  .about-p1{
+    color: #978667;
   }
   
   .about-content h1 {
@@ -37,15 +76,15 @@
     color: #333;
   }
   
-  .about-content p {
+  /* .about-content p {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     line-height: 1.7;
     color: #555;
     /* padding-left: 5px; */
-    margin-left: 0px;
-    margin-bottom: 15px;
-  }
+    /* margin-left: 0px;
+    margin-bottom: 15px; */ */
+  /* } */
   
   .about-image {
     flex: 1;
@@ -65,7 +104,7 @@
     object-fit: cover;
   }
   .hr-tag{
-    width: 780px;
+    width: 1175px;
     margin-top: 40px;
   }
   
@@ -99,8 +138,8 @@
     gap: 2rem;
     /* margin-top: 50px; */
     padding: 4rem 8%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 46px;
+    padding-right: 35px;
     background-color: #fff;
     margin: 0 auto;
     /* width: 100%; */
@@ -211,7 +250,7 @@
     /* padding: 1rem 0rem; */
     gap: 2rem;
     text-align: left;
-    margin-top: 90px;
+    margin-top: 9px;
   }
   
   .testimonial-left {
@@ -223,9 +262,9 @@
   }
   
   .testimonial-img {
-    width: 80px;
+    width: 15%;
     height: 80px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-left: 20px;
     margin-top: 20px;
     object-fit: cover;
@@ -246,6 +285,7 @@
     font-style: italic;
     color: #ddd;
     font-size: 1.1rem;
+    padding-left: 22px;
   }
   
   /* ===== Slider Dots ===== */

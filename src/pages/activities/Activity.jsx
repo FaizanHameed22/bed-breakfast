@@ -19,38 +19,38 @@ const Activity = () => {
   };
   return (
     <>
-      <section id="activities" className="activity-section">
+      
         {/* First Section */}
-        <div className="activity-card">
+        {/* <div className="activity-card">
           <div className="activity-image">
             <img src="/assets/images/food1.png" alt="Typical Food" />
           </div>
           <div className="activity-content">
             {/* <p className="activity-subtitle">LOCAL ACTIVITIES</p> */}
-            <h1 className="activity-title">Dressing Area
+            {/* <h1 className="activity-title">Dressing Area
 </h1>
             <p className="activity-description">
              Elegant bedroom setup featuring cozy sofas for relaxation and a stylish dressing area with a spacious mirror  blending comfort and convenience for a refined stay.
             </p>
-          </div>
-        </div>
+          </div> */}
+        {/* </div>  */}
 
         {/* Reverse Section */}
-        <div className="activity-card reverse">
+        {/* <div className="activity-card reverse">
           <div className="activity-image">
             <img src="/assets/images/hourse.jpg" alt="Nature Exploration" />
           </div>
           <div className="activity-content">
             {/* <p className="activity-subtitle">LOCAL ACTIVITIES</p> */}
-            <h1 className="activity-title">Ambient Lighting</h1>
+            {/* <h1 className="activity-title">Ambient Lighting</h1>
             <p className="activity-description">
              Experience a warm and inviting atmosphere with soft ambient lighting, thoughtfully designed to create a relaxing mood and enhance the elegance of your room.
             </p>
-          </div>
+          </div> */}
 
-        </div>
-        <hr></hr>
-      </section>
+        {/* </div>  */}
+        
+      
       {/* <hr className="hr-t"></hr> */}
       {/* <section className="activities-section">
         <h5 className="activities-subtitle">LOCAL ACTIVITIES</h5>

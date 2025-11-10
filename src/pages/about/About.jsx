@@ -8,25 +8,25 @@ import "slick-carousel/slick/slick-theme.css";
 const About = () => {
   const testimonials = [
     {
-      name: "Roberta",
-      date: "12 Oct",
-      image: "/assets/images/client1.jpg",
+      title: "Safe, elegant, and very relaxing.",
+      image: "/assets/images/japan.png",
       review:
-        "Mea ad postea meliore fuisset. Timeam repudiare id eum, ex paulo dictas elaboraret sed, mel cu unum nostrud.",
+        "I felt completely safe and comfortable staying here as a solo female traveler. The place was clean, secure, and welcoming. Experiencing the local culture gave me a new and positive impression of Pakistan.",
+      name: "— Natsuyo, Kanagawa Japan ",
     },
     {
-      name: "Jonathan",
-      date: "25 Sep",
-      image: "/assets/images/client2.jpg",
+      title: "I felt completely at home.",
+      image: "/assets/images/japan.png",
       review:
-        "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam nisi ut aliquid.",
+        "Even during my two months business trip, I felt completely at ease. Everything was perfectly clean and beautifully organized, just like in Japan. Their kindness and attention to detail made my stay truly comfortable and peaceful.",
+      name: "— Yukiyo, Saitama Japan ",
     },
     {
-      name: "Sophia",
-      date: "10 Aug",
-      image: "/assets/images/client3.jpg",
+      title: "Safe, elegant, and very relaxing.",
+      image: "/assets/images/japan.png",
       review:
-        "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.",
+        "DHA, Bahria Town is incredibly beautiful and secure, and the house was beyond my expectations. It’s rare to find a place abroad that feels this calm and refined.",
+      name: "— Takuya, Saitama Japan ",
     },
   ];
 
@@ -42,23 +42,23 @@ const About = () => {
 
   return (
     <>
-
-
+      {/* ABOUT SECTION */}
       <section id="about" className="about-section">
         <div className="about-content">
-          <p className="about-p">About Us</p>
-          <h1>
-            Makes your self at home<br /> and enjoy a unique<br /> experience
-          </h1>
-          <p>
-            Welcome to <strong>Bed & Breakfast</strong> your cozy escape from the
-            ordinary!<br /> Nestled in nature, our retreat blends comfort, warmth,
-            and hospitality to create unforgettable stays.
+          <p className="about-intro">About Us</p>
+          <h1>A Japanese Sense of Serenity in Islamabad</h1>
+
+          <p className="about-paragraph-one">
+            Located in Islamabad, our home embodies the essence of Japanese living—clean, calm, and beautifully detailed.
+            Created by Ai, a Japanese owner, it offers a peaceful retreat where refined comfort meets heartfelt hospitality.
           </p>
-          <p>
-            Whether you’re looking for a peaceful weekend getaway or a serene
-            countryside retreat, we make your experience relaxing and memorable.
+
+          <p className="about-paragraph-two">
+            Every space is thoughtfully designed to reflect the values of Japanese simplicity and mindfulness, creating an
+            atmosphere of serenity in the heart of Pakistan’s capital. From the minimalist interiors to the gentle warmth
+            of natural light, every detail invites you to unwind and reconnect with yourself.
           </p>
+          <p className="about-footer">Meet Your Host</p>
         </div>
 
         <div className="about-image">
@@ -74,54 +74,56 @@ const About = () => {
           <FaParking className="feature-icon" />
           <h3>Private Parking</h3>
           <p>
-            Enjoy the convenience and security of dedicated private parking, offering safe and easy access to your vehicle throughout your stay.          </p>
+            Enjoy the convenience and security of dedicated private parking, offering safe and easy access to your vehicle throughout your stay.
+          </p>
         </div>
 
         <div className="feature">
           <FaWheelchair className="feature-icon" />
           <h3>Accessible</h3>
           <p>
-            Thoughtfully designed with accessibility in mind, featuring easy room access, spacious layouts, and facilities to ensure a comfortable stay for all guests.          </p>
+            Thoughtfully designed with accessibility in mind, featuring easy room access, spacious layouts, and facilities to ensure a comfortable stay for all guests.
+          </p>
         </div>
 
         <div className="feature">
           <FaDog className="feature-icon" />
           <h3>Pet Friendly</h3>
           <p>
-            We warmly welcome your furry companions  enjoy a comfortable stay with pet-friendly accommodations designed for both you and your pets.          </p>
+            We warmly welcome your furry companions — enjoy a comfortable stay with pet-friendly accommodations designed for both you and your pets.
+          </p>
         </div>
 
         <div className="feature">
           <FaUmbrellaBeach className="feature-icon" />
           <h3>Patio Garden</h3>
           <p>
-            Relax and unwind in our serene patio garden, beautifully landscaped with lush greenery a perfect spot to enjoy fresh air and peaceful outdoor moments.          </p>
+            Relax and unwind in our serene patio garden, beautifully landscaped with lush greenery — a perfect spot to enjoy fresh air and peaceful outdoor moments.
+          </p>
         </div>
       </section>
 
       {/* TESTIMONIALS SECTION */}
       <section className="testimonials-section">
-        {/* <div className="testimonial-overlay"> */}
-          {/* <p className="testimonial-subtitle">TESTIMONIALS</p> */}
-          {/* <h2 className="testimonial-title">What Clients Says</h2> */}
+        <div className="testimonial-overlay">
+          <p className="testimonial-subtitle">Guest Impressions</p>
+          <h2 className="testimonial-title">What Clients Say</h2>
 
-          {/* <Slider {...settings} className="testimonial-slider"> */}
-            {/* {testimonials.map((item, index) => ( */}
-              {/* // <div key={index} className="testimonial-card"> */}
-                {/* <div className="testimonial-left"> */}
-                  {/* <img src={item.image} alt={item.name} className="testimonial-img" /> */}
-                  {/* <div className="testimonial-info">
-                    <h4>{item.name}</h4>
-                    <p>{item.date}</p>
-                  </div> */}
-                {/* </div> */}
-                {/* <div className="testimonial-right"> */}
-                  {/* <p>"{item.review}"</p> */}
-                {/* </div> */}
-              {/* </div> */}
-            {/* ))} */}
-          
-        {/* </div> */}
+          <Slider {...settings} className="testimonial-slider">
+            {testimonials.map((item, index) => (
+              <div key={index} className="testimonial-card">
+                <div className="testimonial-left">
+                  <img src={item.image} alt={item.name} className="testimonial-img" />
+                </div>
+                <div className="testimonial-right">
+                  <h3 className="testimonial-heading">“{item.title}”</h3>
+                  <p className="testimonial-description">{item.review}</p>
+                  <p className="testimonial-name">{item.name}</p>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
       </section>
     </>
   );

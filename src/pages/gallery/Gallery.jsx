@@ -30,6 +30,7 @@ const Gallery = () => {
 
   return (
     <section id="gallery" className="gallery-section">
+      <p className="gallery-p">LUXURY B&B EXPERIENCE</p>
       <h2 className="gallery-title">Interior Gallery</h2>
 
       <div className="gallery-container">
