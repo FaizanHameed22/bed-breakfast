@@ -296,8 +296,7 @@
 .experience-section {
   position: relative;
   background: url("../../assets/images/testimonial-bg.jpg");
-  /* background-size: contain; */
-  /* <— this makes the image fill the section */
+  /* this makes the image fill the section */
   height: 100vh;
   display: flex;
   align-items: center;
